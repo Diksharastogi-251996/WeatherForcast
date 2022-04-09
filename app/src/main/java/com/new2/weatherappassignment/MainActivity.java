@@ -22,12 +22,12 @@ public class MainActivity extends AppCompatActivity {
             @Override
             public void onClick(View view) {
 
-                Intent detailActivity = new Intent(MainActivity.this,DetailActivity.class );
+                Intent detailActivity = new Intent(MainActivity.this,DetailActivity. class );
 
                 detailActivity .putExtra ( "TextBox", cityName.getText().toString() );
                 startActivity(detailActivity);
 
-                
+
             }
         });
 
