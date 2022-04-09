@@ -27,6 +27,7 @@ public class MainActivity extends AppCompatActivity {
                 detailActivity .putExtra ( "TextBox", cityName.getText().toString() );
                 startActivity(detailActivity);
 
+                
             }
         });
 
